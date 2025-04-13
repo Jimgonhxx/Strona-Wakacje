@@ -20,7 +20,12 @@ header {
 .container {  
   flex: 1; /* Pushes the footer to the bottom */
     display: flex;
-    justify-content: left;
+    margin-top:20px;
+    justify-content: flex-start;
+    
+    
+   
+
 }
 
 .banner {
@@ -28,29 +33,41 @@ header {
   background-color: #ff5f4a;
   padding: 1px;
   color:white;
-  margin: 10px 0;
+  margin: 20px 0px;
   font-weight: bold;
+  font-size:20px;
 }
 
 img {
-
-  margin: 20px;
+ 
+  margin-left:40px;
   width:200px;
   height:150px;
-}
-
-.numery p {
-  padding: 0px 0px 15px 0px;
+  
   
 }
+
+.numery {
+  padding: 0px 0px 15px 0px;
+  
+  
+}
+
+
+.images, .numery {
+  margin-left: 90px; /* zmień wartość według uznania */
+}
+
+
 
 input {
   margin: 6px;
 }
 
 button {
-  margin: 0px 10px;
+  margin: 0px 6px;
   cursor: pointer;
+  
 }
 
 button, input {
@@ -69,4 +86,10 @@ button, input {
 footer {
   padding:1px;
   background-color:#ff5f4a;
+}
+
+
+p {
+
+  font-weight:bold;
 }
